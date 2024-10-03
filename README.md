@@ -86,21 +86,33 @@ To use the Datastore module, follow the steps below.
 
 ## module variables
 
-datastore_region :	The region where the Datastore instance is deployed	
+datastore_region :	The region where the Datastore instance is deployed
+	
 datastore_instance_name :	The name of the Datastore instance	
+
 kind_name : 	The kind name for the Datastore entities	string	
+
 index_properties : 	List of index properties (name, direction)	
+
 credentials_file_path	: Path to the GCP service account credentials 
 
 ## root Variables
 
 project_id	: The ID of the GCP project	
+
 datastore_region :	The region where the Datastore instance is deployed
+
 datastore_instance_name :	The name of the Datastore instance	
+
 kind_name	: The kind name for the Datastore entities	
+
 index_properties :	List of index properties (name, direction)	
+
 credentials_file_path	: Path to the GCP service account credentials 
+
 gcs_bucket_name	: The GCS bucket name for storing Terraform state	
+
+
 ## Terraform 
 Use below commands 
 terraform init
