@@ -115,8 +115,10 @@ gcs_bucket_name	: The GCS bucket name for storing Terraform state
 
 ## Terraform 
 Use below commands 
-terraform init
-terraform plan
+
+**terraform init**
+
+**terraform plan**
 
 only if required use command : **terraform apply**
 
@@ -127,6 +129,8 @@ Terratest
 Install Go: Make sure you have Go installed on your machine. You can download it from golang.org.
 Set up Terratest: Create a directory for your tests, typically in the same repository as your Terraform code. 
 In this directory, create a Go test file (e.g., main_test.go).
+
+
 **initiate the go module**
 
 Step 1: 
